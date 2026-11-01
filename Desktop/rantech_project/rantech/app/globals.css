@@ -1,0 +1,108 @@
+@import "tailwindcss";
+
+@theme {
+  --color-ink: #0B1220;
+  --color-ink-800: #101C2C;
+  --color-ink-700: #16233A;
+  --color-ink-600: #1D2F49;
+
+ --color-paper: #F8F9F6;
+  --color-paper-dim: #E8E9E2;
+
+  --color-copper: #D98E33;
+  --color-copper-light: #F0AC5C;
+  --color-copper-dark: #A66A22;
+
+  --color-steel: #3A5A78;
+  --color-steel-light: #5C7C99;
+
+  --color-signal: #3FA687;
+  --color-slate-muted: #6B7480;
+
+  --font-display: var(--font-display-raw), sans-serif;
+  --font-body: var(--font-body-raw), sans-serif;
+  --font-mono: var(--font-mono-raw), monospace;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-paper text-ink font-body antialiased;
+  }
+
+  h1, h2, h3, h4 {
+    @apply font-display text-ink;
+  }
+
+  ::selection {
+    background-color: #D98E33;
+    color: +#0B1220;
+  }
+
+  :focus-visible {
+  outline: 2px solid #D98E33;
+  outline-offset: 3px;
+}
+
+input:focus-visible,
+textarea:focus-visible,
+select:focus-visible {
+  outline: none;
+}
+}
+
+@layer utilities {
+  .container-content {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 1180px;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+
+  @media (min-width: 768px) {
+    .container-content {
+      padding-left: 2.5rem;
+      padding-right: 2.5rem;
+    }
+  }
+
+  .section-pad {
+    @apply py-20 md:py-28;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+.site-bg {
+  position: relative;
+}
+
+.site-bg::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  background-image: url("/images/site-background.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.1;
+}
+
+.site-bg > main {
+  position: relative;
+  z-index: 1;
+}
