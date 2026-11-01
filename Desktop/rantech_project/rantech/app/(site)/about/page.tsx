@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 };
 
 const timeline = [
-  { year: "2019", event: "Founded as a small distribution transformer rewinding workshop in Abuja." },
+  { year: "2019", event: "Founded as a small distribution transformer rewinding workshop in Abakaliki." },
   { year: "2021", event: "Opened our first dedicated testing and maintenance shop." },
   { year: "2022", event: "Began buying and selling distribution transformers directly." },
   { year: "2024", event: "Added supply of electrical materials and transformer parts." },

@@ -41,5 +41,5 @@ yarn-error.log*
 next-env.d.ts
 
 # data/*.json
-public/uploads/*
-!public/uploads/.gitkeep
+# public/uploads/*
+# !public/uploads/.gitkeep
