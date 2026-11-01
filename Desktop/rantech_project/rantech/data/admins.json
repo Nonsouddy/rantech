@@ -1,0 +1,10 @@
+[
+  {
+    "id": "f79e944c-9b30-46d4-b8f5-ed4d59c9a3e3",
+    "name": "Ransom Nwani",
+    "email": "nonsouddy@gmail.com",
+    "passwordHash": "$2b$12$VB8OgA.4KvnHxYrhk3uAZ.lHythNixL6afYS7xXmr5xtXsM0akNMG",
+    "role": "super_admin",
+    "createdAt": "2026-09-18T06:38:55.811Z"
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "id": "719456e0-b60e-49fb-ac26-5c0e16610b31",
+    "image": "/uploads/hero/1788730220668-6d603b639405.jpg",
+    "caption": "Recoiling of a transformer totally immersed in water",
+    "order": 1,
+    "createdAt": "2026-09-03T16:09:56.775Z"
+  },
+  {
+    "id": "7b980afe-af1d-4fc5-bd5d-efcdce450f19",
+    "image": "/uploads/hero/1788730310194-87918f200071.jpg",
+    "caption": "Ongoing Repair",
+    "order": 2,
+    "createdAt": "2026-09-03T16:10:47.396Z"
+  },
+  {
+    "id": "14d56837-fa7a-425e-ba82-218b998fd6bf",
+    "image": "/uploads/hero/1788730350253-1290ced5b3f8.jpg",
+    "caption": "Ongoing Repair",
+    "order": 3,
+    "createdAt": "2026-09-06T21:32:30.257Z"
+  },
+  {
+    "id": "cb46e9e6-1703-49a8-a15c-7caa2dc259be",
+    "image": "/uploads/hero/1788730386751-79e07bb18b4b.jpg",
+    "caption": "Ongoing Repair",
+    "order": 4,
+    "createdAt": "2026-09-06T21:33:06.754Z"
+  },
+  {
+    "id": "e70048c5-1033-4d7e-aeaa-9bc19999b05d",
+    "image": "/uploads/hero/1788730539376-d001e9deebc3.jpg",
+    "caption": "Rewinding Process",
+    "order": 5,
+    "createdAt": "2026-09-06T21:35:39.380Z"
+  },
+  {
+    "id": "5fed8fb0-dfee-433d-9a3e-85015e63e82f",
+    "image": "/uploads/hero/1788730437695-ec327e31c1b4.jpg",
+    "caption": "Rewinding",
+    "order": 6,
+    "createdAt": "2026-09-06T21:33:57.699Z"
+  },
+  {
+    "id": "a14493fa-758a-463c-9b03-696fdde257d0",
+    "image": "/uploads/hero/1788730474814-00c5371b0803.jpg",
+    "caption": "Outcome",
+    "order": 7,
+    "createdAt": "2026-09-06T21:34:34.818Z"
+  },
+  {
+    "id": "d83089ae-9867-45a8-9d13-15ac1bbf2fd2",
+    "image": "/uploads/hero/1788730650189-1292f9c8eb4c.jpg",
+    "caption": "Assembling",
+    "order": 8,
+    "createdAt": "2026-09-06T21:37:30.193Z"
+  }
+]
